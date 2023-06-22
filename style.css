@@ -1,0 +1,26 @@
+p {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+}
+
+p:hover {
+    opacity: 0.5;
+}
+
+h2 {
+    text-align: center;
+    font-size: unset;
+    font-weight: 600;
+}
+
+span {
+    margin-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+body {
+    width: 300px;
+}
